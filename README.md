@@ -200,4 +200,5 @@ print(mean(absolute(scores)))
 print("RMSE")
 print(sqrt(mean(absolute(scores))))
 ```
+From the split of datasets I used, I found the lowest RMSE (1.19) and MAE (1.42) values for dataset E, with 8 clusters
 

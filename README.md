@@ -1,5 +1,11 @@
 # Odour-Prediction
-This is the code for research under models for predicting the Odour of a compound from its molecular descriptors
+The code below works on the conept of clustering data to reach categorized data, of different odors
+The input data we deal with has the molecular descriptor values of different odor groups. It is a numerical representaion of odor, or so to say.
+This can be calculated directly from the SMILE or molecular formula of the compound.
+
+This is then used to train a K-means clustering algorithm, which gives us a scatter plot of all the compounds.
+Later a mapping is developed between the odor groups classified and the originally mapped data to check it's accuracy
+
 
 First, we need to extract the molecular descriptors of all compounds in the dataset
 ```

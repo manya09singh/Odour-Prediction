@@ -1,4 +1,7 @@
 # Odour-Prediction
+
+The full length explanation of piece by piece code can be found here : https://medium.com/nerd-for-tech/olfactory-prediction-unsupervised-learning-f9a19f4154d1
+
 The code below works on the conept of clustering data to reach categorized data, of different odors
 The input data we deal with has the molecular descriptor values of different odor groups. It is a numerical representaion of odor, or so to say.
 This can be calculated directly from the SMILE or molecular formula of the compound.
